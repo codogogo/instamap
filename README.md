@@ -22,6 +22,7 @@ If you are using InstaMap code in your work, please cite the above paper. Here's
 }
 ```
 
+
 ## Code & configuration
 
 In order create a cross-lingual embedding space with InstaMap you need to run the script *instamap.py*. The script takes no command-line parameters -- in contrast, parameter values need to be set in advance in *config.py*. The following configurable parameters exist in *config.py*:
@@ -35,6 +36,7 @@ In order create a cross-lingual embedding space with InstaMap you need to run th
 - *train_dict*: path to the initial word translation dictionary (InstaMap is a supervised, albeit non-parametric, model/algorithm)
 - *source_vectors_output*: path to which the serialize the produced mapped vectors of the source language
 - *target_vectors_output*: path to which the serialize the produced mapped vectors of the target language
+
 
 ## Sample data
 
